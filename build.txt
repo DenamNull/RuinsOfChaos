@@ -1,0 +1,3 @@
+displayName = Ruins of Chaos Public Alpha [READ DESCRIPTION]
+author = Denam0
+version = 0.2.1

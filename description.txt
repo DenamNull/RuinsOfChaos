@@ -1,0 +1,7 @@
+This version of Ruins of Chaos contains the groundwork of everything that will be in later. Includes basic Assassin Class mechanics, leveling mechanics, Book of Knowledge, and some items. There is much more to come, but don't expect it in a while.
+Developers: Denam0, Zero
+Sprite Artists: Retrowave, The Possum
+Music Artists: Denam0
+
+Ruins of Chaos borrows some sounds from freesound.org:
+Crossbow Firing Sound: "bow02.wav" by Erdie (https://freesound.org/people/Erdie/sounds/65734/), licensed under CCBY 4.0 

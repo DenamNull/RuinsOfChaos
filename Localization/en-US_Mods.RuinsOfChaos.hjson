@@ -1,0 +1,197 @@
+Items: {
+	BookOfKnowledge: {
+		DisplayName: Book of Knowledge
+		Tooltip: Guide to this broken world...
+	}
+
+	RingOfSumasen: {
+		DisplayName: Ring Of Sumasen
+		Tooltip:
+			'''
+			May	you not fall as he did...
+			{$CommonItemTooltip.PercentIncreasedDamage}
+			'''
+	}
+
+	CopperCrossbow: {
+		DisplayName: Copper Crossbow
+		Tooltip: ""
+	}
+
+	TinCrossbow: {
+		DisplayName: Tin Crossbow
+		Tooltip: ""
+	}
+
+	IronCrossbow: {
+		DisplayName: Iron Crossbow
+		Tooltip: ""
+	}
+
+	LeadCrossbow: {
+		DisplayName: Lead Crossbow
+		Tooltip: ""
+	}
+
+	SilverCrossbow: {
+		DisplayName: Silver Crossbow
+		Tooltip: ""
+	}
+
+	TungstenCrossbow: {
+		DisplayName: Tungsten Crossbow
+		Tooltip: ""
+	}
+
+	GoldCrossbow: {
+		DisplayName: Gold Crossbow
+		Tooltip: At full precision, inflicts a debuff which converts the enemy's life to coins.
+	}
+
+	PlatinumCrossbow: {
+		DisplayName: Platinum Crossbow
+		Tooltip: At full precision, inflicts a debuff which converts the enemy's life to coins.
+	}
+}
+
+DamageClasses.AssassinClass.DisplayName: marksman damage
+
+Projectiles: {
+	CopperBolt.DisplayName: Copper Bolt
+	IronBolt.DisplayName: Iron Bolt
+	TinBolt.DisplayName: Tin Bolt
+	LeadBolt.DisplayName: Lead Bolt
+	SilverBolt.DisplayName: Silver Bolt
+	TungstenBolt.DisplayName: Tungsten Bolt
+	GoldBolt.DisplayName: Gold Bolt
+	PlatinumBolt.DisplayName: Platinum Bolt
+}
+
+CommonItemTooltip: {
+	AssassinClassInfoMessage: <Shift> while hovering the item for more info!
+	PercentIncreasedAssassinDamage: "{0}% increased marksman damage"
+	PercentIncreasedAssassinSpeed: "{0}% increased marksman attack speed"
+	BookKeybindText: Use this item or press {0} while this item is in your inventory to open it!
+	HasNoKeybindSelected: "[Select Keybind]"
+}
+
+Prefixes: {
+	Summoner: {
+		DefensePenetration: Ignores {0} defense
+		MinionsCanDespawn: Minions will despawn
+		SentriesCanDespawn: Sentries will despawn
+		ExtraMinion: Grants an extra minion
+		ExtraSentry: Grants an extra sentry
+		LessMinions: Summons 1 less minion
+		LessSentries: Summons 1 less sentry
+		Defiant: Defiant
+		Impaired: Impaired
+		Discouraging: Discouraging
+		Rebellious: Rebellious
+		Competent: Competent
+		Predominant: Predominant
+		Commanding: Commanding
+		Supreme: Supreme
+	}
+}
+
+Commands.Suicide.HelpText: Kills the player instantly.
+DeathMessages.FromSuicideCommand: "{0} bid farewell, cruel world!"
+
+UI: {
+	PrecisionBarText: Precision: {0} / {1}
+
+	BookOfKnowledge: {
+		SkillTree: Skill Tree
+		Header: Book Of Knowledge
+		OnClassicMode:
+			'''
+			Current Difficulty: {$UI.Normal}
+			Recommended for those who just want to play casually.
+			Click this icon to change to {$UI.Expert}!
+			'''
+		OnExpertMode:
+			'''
+			Current Difficulty: {$UI.Expert}
+			For those who would like a bit of a challenge.
+			Recommended for first-time players of this mod.
+			Click this icon to change to {$UI.Master}!
+			'''
+		OnMasterMode:
+			'''
+			Current Difficulty: {$UI.Master}
+			For those who would like to truly challenge themselves.
+			The intended way to play.
+			Click this icon to change to {$UI.Normal}!
+			'''
+		SelectClass: Select Class
+		ClickToGetGear: Click this to recieve starting gear.
+		ComingSoon: COMING SOON
+		ReminderToHaveFun: "[c/FF1919:Remember to switch difficulties if you feel overwhelmed!]"
+		Melee: Melee
+		Ranger: Ranger
+		Mage: Mage
+		Summoner: Summoner
+		Assassin: Assassin
+		SelectClassHeader: Select a Class
+		MeleeText:
+			'''
+			A tanky, close-ranged class.
+			With the constant risk of death, only the brave can fully master this class.
+			But indeed, once one masters it, they will be a force to be reckoned with.
+			Includes Swords, Boomerangs, Spears, and Yo-yos
+			'''
+		RangerText:
+			'''
+			A reliable class with consistent damage.
+			While rangers may lag behind other classes in terms of damage, the versitility of their arsenal is unmatched.
+			The class has many diverse types of ammunition at its disposal, allowing it to adapt to certain situations more reliably.
+			Includes Bows, Guns and Rocket Launchers
+			'''
+		MageText:
+			'''
+			A damage-oriented class which requires careful thought.
+			Mages excel in damage, and while it may not match a warrior's true melee strike, its not nearly as risky.
+			Managing Mana is a must, and as weapons grow in power, they will demand more resources. Without it, the weapons cannot function.
+			Furthermore, the Mage does not have much bulk, and must learn to dodge if they want to avoid death.
+			Includes Staffs and Spell Tomes
+			'''
+		SummonerText:
+			'''
+			A laid-back, but frail class.
+			The Summoner's arcane abilites allow them to summon minions to defend against harm, without the owner having to do any aim.
+			These minions, while certainly being powerful, must be guided by their master to unleash their true potential.
+			A common method is by Whips, which strike an enemy, causing the minions to chase after the foe.
+			However, this can also be achieved by unconventional means...
+			Includes Minions, Sentries, and Whips
+			'''
+		AssassinText:
+			'''
+			A tactical, aim-based class.
+			The Assassins can trace their roots back to the Rangers, but one must not assume the Assassins are completely equivalent to them.
+			Assassin weapons are designed with accuracy in mind, with their projectiles being quicker and less volatile than Rangers' are.
+			While the weapons themselves are not very strong, they reward continuous hits on an enemy with greater damage.
+			This damage can outpace even the Mage's if one makes sure they focus their mind towards never missing.
+			However, one wrong move, and the weapon's power will lower once more, which can make repeated errors catastrophic.
+			Includes Crossbows, Trackers, Sniper Rifles, and Throwing Knives
+			'''
+		LevelText: Level: {0}. Progress: {1} / {2}.
+		Class: Class
+		None: None
+		Guide: Guide
+		Stats: Stats
+		Lore: Lore
+		StatsHeader: Character Stats
+		StatsText: Click this to view all of your character's stats!
+	}
+}
+
+Buffs: {
+	CurseOfSilver: {
+		DisplayName: Curse Of Silver
+		Description: You should not have this applied to you...
+	}
+}
+
+Keybinds.BookOfKnowledge.DisplayName: Book of Knowledge Hotkey
+GuideMessages.BookHelp: Have you lost your Book of Knowledge? I've heard that deep underground, there lies a method to reobtain that knowledge...

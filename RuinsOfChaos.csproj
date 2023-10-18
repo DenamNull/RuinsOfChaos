@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>RuinsOfChaos</AssemblyName>
+    <TargetFramework>net6.0</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AdditionalFiles Remove="Common\UI\BookOfKnowledgeUI\LevelFrame.png\**" />
+    <Compile Remove="Common\UI\BookOfKnowledgeUI\LevelFrame.png\**" />
+    <EmbeddedResource Remove="Common\UI\BookOfKnowledgeUI\LevelFrame.png\**" />
+    <None Remove="Common\UI\BookOfKnowledgeUI\LevelFrame.png\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Common\UI\Precision\PrecisionFrame.png" />
+    <None Remove="Content\Items\Weapons\Marksman\GoldCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\IronCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\LeadCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\PlatinumCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\SilverCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\TinCrossbow.png" />
+    <None Remove="Content\Items\Weapons\Marksman\TungstenCrossbow.png" />
+    <None Remove="Content\Projectiles\Friendly\CopperBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\GoldBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\IronBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\LeadBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\PlatinumBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\TinBolt.png" />
+    <None Remove="Content\Projectiles\Friendly\TungstenBolt.png" />
+    <None Remove="Content\Projectiles\silver bolt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="tModLoader.CodeAssist" Version="0.1.*" />
+  </ItemGroup>
+</Project>
