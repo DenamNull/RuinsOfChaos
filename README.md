@@ -5,7 +5,9 @@ idk i'll add stuff later
 ## Credits
 
 Developers: Denam0, Zero
+
 Sprite Artists: Retrowave, The Possum
+
 Composers: Denam0
 
 Ruins of Chaos borrows some sounds from freesound.org:
